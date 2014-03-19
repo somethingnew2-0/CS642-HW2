@@ -1,0 +1,17 @@
+pcollins
+
+1.) 
+	Trace 1:
+		1.) amazon.com
+			baidu.com
+			bing.com
+		2.) amazon.com/search/complete?method=completion&q=adventures%20in%20Stochastic%20Processes&search-alias=stripbooks&client=amazon-search-ui&mkt=1&fb=1&xcat=0&x=updateISSCompletion&sc=1&noCacheIE=1393230040894
+			"adventures in Stochastic Processes"
+			
+			baidu.com/s?wd=%E6%9D%A5%E8%87%AA%E6%98%9F%E6%98%9F%E7%9A%84%E4%BD%A0&rsv_bp=0&ch=&tn=baidu&bar=&rsv_spt=3&ie=utf-8&rsv_sug3=14&rsv_sug4=794&rsv_sug1=3&rsv_sug2=0&inputT=2
+			"来自星星的你"
+			
+			bing.com/search?q=madison+map&go=&qs=n&form=QBLH&pq=madison+map&sc=8-5&sp=-1&sk=&cvid=21ab45dc55634583bed819be11051864
+			"madison map"
+	Trace 2:
+
