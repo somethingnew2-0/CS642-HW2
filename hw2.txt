@@ -74,7 +74,7 @@ pcollins
 		Use a dual-stack header or implementation to handle both IPv4 and IPv6 packets.
 		Verify all inputs that are used to control the program including packet headers for IP and TCP.  
 3.)
-	1.)  
+	See main.py
 4.)
 	1.) Assuming we know the small business' UDP port for DNS we could forge a DNS response by guessing the valid Query ID from the victim's DNS server NS or A record request.  The forged response could then poison the DNS cache by storing an arbitrary IP address for the domain or even the second level domain name server.  
 		A sucessful DNS cache poisoning attack would enable the attacker to point any specific website visited by the victim to an arbitrary IP address if the attacker knew the website visited, or second level domain visited.  This could be used download some malware driveby would install itself on the victim's machine, or the server at the arbirtrary IP address just simply track and sniff the request through a man in the middle attack (MITM) before returning data from the legitimate site. 
