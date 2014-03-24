@@ -62,7 +62,7 @@ class IDS(object):
             dst = ip.dst+':'+str(tcp.dport)
             if dst in self.syn_flood:
                 pkts = self.syn_flood[dst] 
-                for _ in xrange(len(pkts)):
+                while len(pkts) > 0:
                     pkt = pkts[0]
                     if ts - pkt['ts'] >= 1:
                         pkts.popleft()
